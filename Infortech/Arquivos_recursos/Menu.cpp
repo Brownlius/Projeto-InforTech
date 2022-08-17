@@ -1,5 +1,39 @@
-#include "./Menu.h"
+#include "../Arquivos_cabecalho/Menu.h"
+#include "../Arquivos_cabecalho/Conta.hpp"
+#include "../CCorrente.hpp"
+#include "../CPoupanca.h"
 
+std::string tipoConta;
+
+std::string geraNumeroConta() {
+
+	unsigned seed = time(0);
+	srand(seed);
+	int numeroContaAleatorio = rand() % 11111;
+	return std::to_string(numeroContaAleatorio);
+}
+
+std::string menuTipoConta()
+{
+	while (tipoConta != "p" && tipoConta != "c") {
+
+		std::cout << "Qual o tipo de conta a ser criada? Poupança(P) ou Corrente(C)." << std::endl;
+		std::cin >> tipoConta;
+
+	}
+	return tipoConta;
+}
+
+std::variant<CCorrente, CPoupanca> TipoConta(std::string tipoConta, std::string numeroContaAleatorio) {
+
+	if (tipoConta == "p") {
+		CPoupanca contaP(12, "numeroContaAleatorio");
+		return contaP;
+	}
+	
+	CCorrente contaC(12, "numeroContaAleatorio");
+	return contaC;
+};
 
 void MenuInicial() {
 	int escolhaMenu = 0;
@@ -14,11 +48,11 @@ void MenuInicial() {
 		switch (escolhaMenu)
 		{
 		case 1:
-			criaContas();
+			menuTipoConta();
 			break;
-		
+
 		case 2:
-		
+
 			exit(0);
 			break;
 		default:
@@ -28,4 +62,7 @@ void MenuInicial() {
 
 	}
 }
+
+
+
 

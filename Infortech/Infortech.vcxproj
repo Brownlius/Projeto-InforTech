@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,15 +128,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Conta.cpp" />
+    <ClCompile Include="Arquivos_recursos\interface.cpp" />
+    <ClCompile Include="Arquivos_recursos\Menu.cpp" />
+    <ClCompile Include="CCorrente.cpp" />
+    <ClCompile Include="CPoupanca.cpp" />
     <ClCompile Include="Infortech.cpp" />
-    <ClCompile Include="interface.cpp" />
-    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Titular.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Conta.hpp" />
-    <ClInclude Include="Interface.h" />
-    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Arquivos_cabecalho\Conta.hpp" />
+    <ClInclude Include="Arquivos_cabecalho\Interface.h" />
+    <ClInclude Include="Arquivos_cabecalho\Menu.h" />
+    <ClInclude Include="CCorrente.hpp" />
+    <ClInclude Include="CPoupanca.h" />
+    <ClInclude Include="Titular.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
