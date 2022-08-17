@@ -131,6 +131,7 @@
     <ClCompile Include="Arquivos_recursos\interface.cpp" />
     <ClCompile Include="Arquivos_recursos\Menu.cpp" />
     <ClCompile Include="CCorrente.cpp" />
+    <ClCompile Include="Cpf.cpp" />
     <ClCompile Include="CPoupanca.cpp" />
     <ClCompile Include="Infortech.cpp" />
     <ClCompile Include="Titular.cpp" />
@@ -140,6 +141,7 @@
     <ClInclude Include="Arquivos_cabecalho\Interface.h" />
     <ClInclude Include="Arquivos_cabecalho\Menu.h" />
     <ClInclude Include="CCorrente.hpp" />
+    <ClInclude Include="Cpf.hpp" />
     <ClInclude Include="CPoupanca.h" />
     <ClInclude Include="Titular.hpp" />
   </ItemGroup>
