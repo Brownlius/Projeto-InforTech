@@ -3,4 +3,3 @@
 #include <iostream>
 #include <string>
 
-void MenuInicial();

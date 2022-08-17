@@ -1,2 +1,2 @@
 ﻿  Menu.cpp
-  Infortech.vcxproj -> H:\Github\Teste\Infortech\x64\Debug\Infortech.exe
+H:\Github\Teste\Infortech\Menu.cpp(17,4): error C3861: 'criaContas': identificador não encontrado
