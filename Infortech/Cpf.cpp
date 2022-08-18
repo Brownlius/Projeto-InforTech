@@ -2,13 +2,13 @@
 
 Cpf::Cpf(std::string numeroCpf)
 {
-	if (validaCpf(numeroCpf)) {
-		std::cout << "Deu certo\n";
-	}
-	else {
+	if (!validaCpf(numeroCpf)) {
 		std::cout << "CPF inválido\n";
 	}
-	this->numeroCpf = numeroCpf;
+	else
+	{
+		this->numeroCpf = numeroCpf;
+	}
 }
 
 bool Cpf::validaCpf(std::string numeroCpf) { 
@@ -32,22 +32,31 @@ bool Cpf::validaCpf(std::string numeroCpf) {
 		resultSoma1 += numeroCpf_vector[i] * j;
 	}
 		
-	resultSoma1 * 10;
-	int dig1 = resultSoma1 % 11;
+	verificaDigito(resultSoma1);
 
 	int resultSoma2 = 0;
 	j = 12;
-	for (int i = 0; i < 9; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		j--;
 		resultSoma2 += numeroCpf_vector[i] * j;
-		
 	}
-	resultSoma2 + (dig1 * 2) * 10;
-	int dig2 = resultSoma2 % 11;
 
-	if (dig1 == numeroCpf_vector[10] && dig2 == numeroCpf_vector[11]) {
+	verificaDigito(resultSoma2);
+	if (digito[0] == numeroCpf_vector[9] && digito[1] == numeroCpf_vector[10]) {
 		return true;
 	}
 	return false;
+}
+std::vector<int> Cpf::verificaDigito(int resultadoSoma) {
+
+	int dig = resultadoSoma % 11;
+	if (dig == 0 || dig == 1) {
+		digito.push_back(dig);
+	}
+	else if (dig > 1 && dig <= 10) {
+		dig = 11 - dig;
+		digito.push_back(dig); 
+	}
+	return digito;
 }

@@ -1,11 +1,9 @@
-#include "../Arquivos_cabecalho/Menu.h"
-#include "../Arquivos_cabecalho/Conta.hpp"
-#include "../CCorrente.hpp"
-#include "../CPoupanca.h"
+#include "../Arquivos_cabecalho/Menu.hpp"
 
-std::string tipoConta;
 
-std::string geraNumeroConta() {
+
+
+std::string Menu::geraNumeroConta() {
 
 	unsigned seed = time(0);
 	srand(seed);
@@ -13,7 +11,7 @@ std::string geraNumeroConta() {
 	return std::to_string(numeroContaAleatorio);
 }
 
-std::string menuTipoConta()
+std::string Menu::menuTipoConta()
 {
 	while (tipoConta != "p" && tipoConta != "c") {
 
@@ -24,18 +22,9 @@ std::string menuTipoConta()
 	return tipoConta;
 }
 
-std::variant<CCorrente, CPoupanca> TipoConta(std::string tipoConta, std::string numeroContaAleatorio) {
 
-	if (tipoConta == "p") {
-		CPoupanca contaP(12, "numeroContaAleatorio");
-		return contaP;
-	}
-	
-	CCorrente contaC(12, "numeroContaAleatorio");
-	return contaC;
-};
 
-void MenuInicial() {
+void Menu::MenuInicial() {
 	int escolhaMenu = 0;
 
 	while (escolhaMenu != 1 && escolhaMenu != 2) {
@@ -49,6 +38,7 @@ void MenuInicial() {
 		{
 		case 1:
 			menuTipoConta();
+			CriaConta(tipoConta, geraNumeroConta());
 			break;
 
 		case 2:
@@ -62,7 +52,32 @@ void MenuInicial() {
 
 	}
 }
+void Menu::preencheInfo() {
+	std::cout << "\n Insira seu nome: " << std::endl;
+	
+	std::getline(std::cin, nomeCompleto);
 
+	std::cout << "\n Insira seu CPF: " << std::endl;
+	std::getline(std::cin, cpf);
+
+	std::cout << "\n Insira o nome da sua mãe: " << std::endl;
+
+	std::getline(std::cin, nomeMae);
+
+	std::cout << "\n Digite seu endereço: " << std::endl;
+
+	std::getline(std::cin, endereco);
+}
+void Menu::CriaConta(std::string tipoConta, std::string numeroContaAleatorio) {
+	preencheInfo();
+	if (tipoConta == "p") {
+		CPoupanca contaP(12, numeroContaAleatorio, Titular(nomeCompleto, nomeMae, endereco, Cpf(cpf)));
+		std::cout << "Poupança criada";
+	}
+
+	CCorrente contaC(12, numeroContaAleatorio, Titular(nomeCompleto, nomeMae, endereco, Cpf(cpf)));
+	std::cout << "Corrente criada";
+}
 
 
 

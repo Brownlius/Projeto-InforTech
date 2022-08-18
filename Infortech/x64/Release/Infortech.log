@@ -1,0 +1,44 @@
+﻿  interface.cpp
+  Menu.cpp
+  The contents of <variant> are available only with C++17 or later.
+H:\Github\Teste\Infortech\CPoupanca.h(5,37): error C2504: 'Conta': classe base indefinida
+H:\Github\Teste\Infortech\CPoupanca.h(5,37): error C2143: erro de sintaxe: ',' ausente antes de '<'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,7): error C2039: ' variant': não é um membro de 'std'
+H:\Visual Studio\VC\Tools\MSVC\14.32.31326\include\vector(24): message : consulte a declaração de 'std'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(60): message : consulte a referência à instanciação 'Conta<taxaSacar>' do modelo da classe que está sendo compilada
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,14): error C2143: erro de sintaxe: ';' ausente antes de '<'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,1): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(41,1): error C2334: token(s) inesperado(s) precedendo '{'; ignorando corpo aparente de função
+H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(8,16): warning C4244: 'inicializando': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  CCorrente.cpp
+H:\Github\Teste\Infortech\CPoupanca.h(5,37): error C2504: 'Conta': classe base indefinida
+H:\Github\Teste\Infortech\CPoupanca.h(5,37): error C2143: erro de sintaxe: ',' ausente antes de '<'
+  The contents of <variant> are available only with C++17 or later.
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,7): error C2039: ' variant': não é um membro de 'std'
+H:\Visual Studio\VC\Tools\MSVC\14.32.31326\include\vector(24): message : consulte a declaração de 'std'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(60): message : consulte a referência à instanciação 'Conta<taxaSacar>' do modelo da classe que está sendo compilada
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,14): error C2143: erro de sintaxe: ';' ausente antes de '<'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,1): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(41,1): error C2334: token(s) inesperado(s) precedendo '{'; ignorando corpo aparente de função
+  Cpf.cpp
+  CPoupanca.cpp
+H:\Github\Teste\Infortech\CCorrente.hpp(5,37): error C2504: 'Conta': classe base indefinida
+H:\Github\Teste\Infortech\CCorrente.hpp(5,37): error C2143: erro de sintaxe: ',' ausente antes de '<'
+  The contents of <variant> are available only with C++17 or later.
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,7): error C2039: ' variant': não é um membro de 'std'
+H:\Visual Studio\VC\Tools\MSVC\14.32.31326\include\vector(24): message : consulte a declaração de 'std'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(60): message : consulte a referência à instanciação 'Conta<taxaSacar>' do modelo da classe que está sendo compilada
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,14): error C2143: erro de sintaxe: ';' ausente antes de '<'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,1): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(41,1): error C2334: token(s) inesperado(s) precedendo '{'; ignorando corpo aparente de função
+  Infortech.cpp
+  The contents of <variant> are available only with C++17 or later.
+H:\Github\Teste\Infortech\CPoupanca.h(5,37): error C2504: 'Conta': classe base indefinida
+H:\Github\Teste\Infortech\CPoupanca.h(5,37): error C2143: erro de sintaxe: ',' ausente antes de '<'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,7): error C2039: ' variant': não é um membro de 'std'
+H:\Visual Studio\VC\Tools\MSVC\14.32.31326\include\vector(24): message : consulte a declaração de 'std'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(60): message : consulte a referência à instanciação 'Conta<taxaSacar>' do modelo da classe que está sendo compilada
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,14): error C2143: erro de sintaxe: ';' ausente antes de '<'
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(40,1): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+H:\Github\Teste\Infortech\Arquivos_cabecalho\Conta.hpp(41,1): error C2334: token(s) inesperado(s) precedendo '{'; ignorando corpo aparente de função
+  Titular.cpp

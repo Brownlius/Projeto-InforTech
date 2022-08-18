@@ -41,16 +41,16 @@
     <ClInclude Include="Arquivos_cabecalho\Conta.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
-    <ClInclude Include="Arquivos_cabecalho\Interface.h">
+    <ClInclude Include="Arquivos_cabecalho\Interface.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
-    <ClInclude Include="Arquivos_cabecalho\Menu.h">
+    <ClInclude Include="Arquivos_cabecalho\Menu.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
     <ClInclude Include="CCorrente.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
-    <ClInclude Include="CPoupanca.h">
+    <ClInclude Include="CPoupanca.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
     <ClInclude Include="Titular.hpp">

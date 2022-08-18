@@ -1,19 +1,19 @@
-// Infortech.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
-#include "Arquivos_cabecalho/Interface.h"
-#include "Arquivos_cabecalho/Menu.h"
+
+#include "Arquivos_cabecalho/Interface.hpp"
+#include "Arquivos_cabecalho/Menu.hpp"
 #include "Arquivos_cabecalho/Conta.hpp"
+#include "Cpf.hpp"
 
 #include <iostream>
 #include <string>
-#include "Cpf.hpp"
 
 using namespace std;
 
 int main()
 {
-	Cpf cpfteste("45895416616");
+	Menu menu;
 	PrintSaudacao();
-	MenuInicial();
+	menu.MenuInicial();
 
 	return 0;
 }

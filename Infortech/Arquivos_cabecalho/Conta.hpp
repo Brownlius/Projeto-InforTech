@@ -1,4 +1,9 @@
 #pragma once
+#include "../Titular.hpp"
+#include "../Arquivos_cabecalho/Conta.hpp"
+#include "../CCorrente.hpp"
+#include "../CPoupanca.hpp"
+
 #include <string>
 #include <utility>
 #include <iostream>
@@ -6,7 +11,7 @@
 
 template<int taxaSacar>
 
-class Conta
+class Conta : public Titular
 {
 private:
 	int numeroAgencia;
@@ -20,7 +25,7 @@ public:
 	int getNumeroAgencia() { return numeroAgencia; }
 	std::string GetNumeroConta() { return numeroConta; }
 
-	Conta(int numeroAgencia, std::string numeroConta) : numeroAgencia(numeroAgencia), numeroConta(numeroConta)
+	Conta(int numeroAgencia, std::string numeroConta, Titular titular) : numeroAgencia(numeroAgencia), numeroConta(numeroConta), Titular(nomeCompleto, nomeMae, endereco, Cpf(cpf))
 	{
 		float saldo = 0;
 	}

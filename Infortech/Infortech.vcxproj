@@ -138,11 +138,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arquivos_cabecalho\Conta.hpp" />
-    <ClInclude Include="Arquivos_cabecalho\Interface.h" />
-    <ClInclude Include="Arquivos_cabecalho\Menu.h" />
+    <ClInclude Include="Arquivos_cabecalho\Interface.hpp" />
+    <ClInclude Include="Arquivos_cabecalho\Menu.hpp" />
     <ClInclude Include="CCorrente.hpp" />
     <ClInclude Include="Cpf.hpp" />
-    <ClInclude Include="CPoupanca.h" />
+    <ClInclude Include="CPoupanca.hpp" />
     <ClInclude Include="Titular.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

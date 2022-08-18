@@ -1,4 +1,15 @@
-﻿  Cpf.cpp
-H:\Github\Teste\Infortech\Cpf.cpp(35,14): warning C4552: '*': o resultado da expressão não é usado
-H:\Github\Teste\Infortech\Cpf.cpp(49,14): warning C4552: '+': o resultado da expressão não é usado
-  Infortech.vcxproj -> H:\Github\Teste\Infortech\x64\Debug\Infortech.exe
+﻿  Menu.cpp
+H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
+H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
+H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(8,16): warning C4244: 'inicializando': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  CCorrente.cpp
+H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
+H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
+  CPoupanca.cpp
+H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
+H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
+H:\Github\Teste\Infortech\CPoupanca.cpp(3,85): error C2614: 'CPoupanca': inicialização de membro inválida: 'Conta' não é uma base ou membro
+  Infortech.cpp
+H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
+H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
+  Gerando Código...
