@@ -11,6 +11,6 @@ protected:
 	std:: string nomeCompleto;
 	std::string nomeMae;
 	std::string endereco;
-	std::string cpf;
+	
 };
 

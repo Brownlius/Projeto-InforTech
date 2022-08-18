@@ -1,10 +1,11 @@
 #pragma once
-#include "./Interface.hpp"
 #include <iostream>
 #include <variant>
 #include <string>
 #include <cstdlib>
 #include <ctime>
+
+#include "./Interface.hpp"
 #include "../CCorrente.hpp"
 #include "../CPoupanca.hpp"
 

@@ -1,15 +1,13 @@
 ﻿  Menu.cpp
-H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
-H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
-H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(8,16): warning C4244: 'inicializando': conversão de 'time_t' para 'unsigned int', possível perda de dados
+H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(5,16): warning C4244: 'inicializando': conversão de 'time_t' para 'unsigned int', possível perda de dados
+H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(118,23): error C2039: ' verificaDigito': não é um membro de 'Cpf'
+H:\Github\Teste\Infortech\Cpf.hpp(6): message : consulte a declaração de 'Cpf'
+H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(122,3): error C2065: 'digito': identificador não declarado
+H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(126,3): error C2065: 'digito': identificador não declarado
+H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(128,9): error C2065: 'digito': identificador não declarado
   CCorrente.cpp
-H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
-H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
+  Cpf.cpp
   CPoupanca.cpp
-H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
-H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
-H:\Github\Teste\Infortech\CPoupanca.cpp(3,85): error C2614: 'CPoupanca': inicialização de membro inválida: 'Conta' não é uma base ou membro
   Infortech.cpp
-H:\Github\Teste\Infortech\CPoupanca.hpp(5,32): error C7568: a lista de argumentos está ausente após o modelo de função assumido 'Conta'
-H:\Github\Teste\Infortech\CPoupanca.hpp(6,1): error C3770: 'unknown-type': não é uma classe base válida
+  Titular.cpp
   Gerando Código...

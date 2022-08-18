@@ -1,8 +1,5 @@
 #include "../Arquivos_cabecalho/Menu.hpp"
 
-
-
-
 std::string Menu::geraNumeroConta() {
 
 	unsigned seed = time(0);
@@ -21,8 +18,6 @@ std::string Menu::menuTipoConta()
 	}
 	return tipoConta;
 }
-
-
 
 void Menu::MenuInicial() {
 	int escolhaMenu = 0;
@@ -54,29 +49,30 @@ void Menu::MenuInicial() {
 }
 void Menu::preencheInfo() {
 	std::cout << "\n Insira seu nome: " << std::endl;
-	
+	std::cin.ignore();
 	std::getline(std::cin, nomeCompleto);
 
 	std::cout << "\n Insira seu CPF: " << std::endl;
 	std::getline(std::cin, cpf);
 
 	std::cout << "\n Insira o nome da sua mãe: " << std::endl;
-
 	std::getline(std::cin, nomeMae);
 
 	std::cout << "\n Digite seu endereço: " << std::endl;
-
 	std::getline(std::cin, endereco);
+
+
 }
 void Menu::CriaConta(std::string tipoConta, std::string numeroContaAleatorio) {
 	preencheInfo();
 	if (tipoConta == "p") {
-		CPoupanca contaP(12, numeroContaAleatorio, Titular(nomeCompleto, nomeMae, endereco, Cpf(cpf)));
-		std::cout << "Poupança criada";
+		Titular titular(nomeCompleto, nomeMae, endereco, Cpf(cpf));
+		CPoupanca contaP(12, numeroContaAleatorio, Titular(titular));
+		return;
 	}
-
+	Titular titular(nomeCompleto, nomeMae, endereco, Cpf(cpf));
 	CCorrente contaC(12, numeroContaAleatorio, Titular(nomeCompleto, nomeMae, endereco, Cpf(cpf)));
-	std::cout << "Corrente criada";
+	
 }
 
 
