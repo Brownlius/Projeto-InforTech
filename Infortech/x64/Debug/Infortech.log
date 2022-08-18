@@ -1,2 +1,4 @@
 ﻿  Cpf.cpp
-  Infortech.vcxproj -> C:\Users\palme\OneDrive\Documentos\GitHub\Teste\Infortech\x64\Debug\Infortech.exe
+H:\Github\Teste\Infortech\Cpf.cpp(35,14): warning C4552: '*': o resultado da expressão não é usado
+H:\Github\Teste\Infortech\Cpf.cpp(49,14): warning C4552: '+': o resultado da expressão não é usado
+  Infortech.vcxproj -> H:\Github\Teste\Infortech\x64\Debug\Infortech.exe

@@ -8,7 +8,7 @@ class Cpf
 public:
 	Cpf(std::string numeroCpf);
 
-	void validaCpf(std::string numeroCpf);
+	bool validaCpf(std::string numeroCpf);
 
 private:
 	std::string numeroCpf;

@@ -11,11 +11,9 @@ using namespace std;
 
 int main()
 {
-	Cpf cpfteste("04315941123");
+	Cpf cpfteste("45895416616");
 	PrintSaudacao();
 	MenuInicial();
-
-	
 
 	return 0;
 }
