@@ -1,3 +1,2 @@
-﻿  Menu.cpp
-H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(10,16): warning C4244: 'inicializando': conversão de 'time_t' para 'unsigned int', possível perda de dados
-  Infortech.vcxproj -> H:\Github\Teste\Infortech\x64\Debug\Infortech.exe
+﻿  Cpf.cpp
+  Infortech.vcxproj -> C:\Users\palme\OneDrive\Documentos\GitHub\Teste\Infortech\x64\Debug\Infortech.exe
