@@ -5,13 +5,17 @@
 
 #include <iostream>
 #include <string>
+#include "Cpf.hpp"
 
 using namespace std;
 
 int main()
 {
+	Cpf cpfteste("04315941123");
 	PrintSaudacao();
 	MenuInicial();
+
+	
 
 	return 0;
 }
