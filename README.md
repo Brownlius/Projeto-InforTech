@@ -1,7 +1,7 @@
 # Repositório criado dentro de requisito de aprovação e continuação em programa de estágio.
   Já havia repositório com mesma aplicação, porém, estou refazendo para adequação de conhecimento e aprimoramento com novas informações.
 
-                            Projeto iniciado no dia 16/08.
+                                        Projeto iniciado no dia 16/08.
   Realizado aplicacão de banco basica com adição de de opções de menu e console. 
   Utilizado conceito de herança, com classes abstratas, dupla herança, métodos construtores.
   Validador de CPF criado apenas utilizando o conhecimento da fórmula matemática. Construção de código feita com conhecimento anterior e pesquisas sobre métodos pontuais.
