@@ -21,7 +21,7 @@
     <ClCompile Include="Arquivos_recursos\interface.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="Arquivos_recursos\Menu.cpp">
+    <ClCompile Include="Arquivos_recursos\MenuInicial.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
     <ClCompile Include="CCorrente.cpp">
@@ -36,6 +36,12 @@
     <ClCompile Include="Cpf.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Conta.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arquivos_cabecalho\Conta.hpp">
@@ -44,7 +50,7 @@
     <ClInclude Include="Arquivos_cabecalho\Interface.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
-    <ClInclude Include="Arquivos_cabecalho\Menu.hpp">
+    <ClInclude Include="Arquivos_cabecalho\MenuInicial.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
     <ClInclude Include="CCorrente.hpp">
@@ -57,6 +63,9 @@
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
     <ClInclude Include="Cpf.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>

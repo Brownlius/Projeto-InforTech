@@ -1,17 +1,27 @@
 #include "Cpf.hpp"
 
-Cpf::Cpf(std::string numeroCpf)
+
+int Cpf::cpfValido;
+
+Cpf::Cpf(std::string numeroCpf = "00000000000")
 {
 	if (!validaCpf(numeroCpf)) {
 		std::cout << "CPF inválido\n";
+		cpfValido= 1;
 	}
 	else
 	{
 		this->numeroCpf = numeroCpf;
+		cpfValido = 0;
 	}
 }
 
-bool Cpf::validaCpf(std::string numeroCpf) { 
+Cpf::~Cpf()
+{
+
+}
+
+ bool Cpf::validaCpf(std::string numeroCpf) { 
 
 	char numeroCpf_char[12];
 	std::vector<int> numeroCpf_vector;

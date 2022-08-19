@@ -22,7 +22,6 @@ void Print1Menu()
 {
 	std::cout << "\n Seja bem-vindo! Para ser um de nossos clientes" << std::endl;
 	std::cout << "\n\t\tCrie sua conta!" << std::endl;
-
 	std::cout << "\n\n 1) Criar conta -> " << std::endl;
 	std::cout << "\n 2) Sair ->" << std::endl;
 

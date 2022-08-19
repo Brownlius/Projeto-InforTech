@@ -1,13 +1,1 @@
-﻿  Menu.cpp
-H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(5,16): warning C4244: 'inicializando': conversão de 'time_t' para 'unsigned int', possível perda de dados
-H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(118,23): error C2039: ' verificaDigito': não é um membro de 'Cpf'
-H:\Github\Teste\Infortech\Cpf.hpp(6): message : consulte a declaração de 'Cpf'
-H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(122,3): error C2065: 'digito': identificador não declarado
-H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(126,3): error C2065: 'digito': identificador não declarado
-H:\Github\Teste\Infortech\Arquivos_recursos\Menu.cpp(128,9): error C2065: 'digito': identificador não declarado
-  CCorrente.cpp
-  Cpf.cpp
-  CPoupanca.cpp
-  Infortech.cpp
-  Titular.cpp
-  Gerando Código...
+﻿  Infortech.vcxproj -> H:\Github\Teste\Infortech\x64\Debug\Infortech.exe

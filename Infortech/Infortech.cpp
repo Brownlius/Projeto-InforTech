@@ -1,6 +1,7 @@
 
 #include "Arquivos_cabecalho/Interface.hpp"
-#include "Arquivos_cabecalho/Menu.hpp"
+#include "Arquivos_cabecalho/MenuInicial.hpp"
+#include "Menu.hpp"
 
 #include <iostream>
 #include <string>
@@ -9,9 +10,9 @@ using namespace std;
 
 int main()
 {
-	Menu menu;
+	MenuInicial menu;
 	PrintSaudacao();
-	menu.MenuInicial();
+	menu.Menu();
 
 	return 0;
 }

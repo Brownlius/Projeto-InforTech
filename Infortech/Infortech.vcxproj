@@ -130,20 +130,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Arquivos_recursos\interface.cpp" />
-    <ClCompile Include="Arquivos_recursos\Menu.cpp" />
+    <ClCompile Include="Arquivos_recursos\MenuInicial.cpp" />
     <ClCompile Include="CCorrente.cpp" />
+    <ClCompile Include="Conta.cpp" />
     <ClCompile Include="Cpf.cpp" />
     <ClCompile Include="CPoupanca.cpp" />
     <ClCompile Include="Infortech.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Titular.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arquivos_cabecalho\Conta.hpp" />
     <ClInclude Include="Arquivos_cabecalho\Interface.hpp" />
-    <ClInclude Include="Arquivos_cabecalho\Menu.hpp" />
+    <ClInclude Include="Arquivos_cabecalho\MenuInicial.hpp" />
     <ClInclude Include="CCorrente.hpp" />
     <ClInclude Include="Cpf.hpp" />
     <ClInclude Include="CPoupanca.hpp" />
+    <ClInclude Include="Menu.hpp" />
     <ClInclude Include="Titular.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

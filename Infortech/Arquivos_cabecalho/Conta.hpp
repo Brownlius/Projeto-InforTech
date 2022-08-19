@@ -1,58 +1,35 @@
 #pragma once
 #include "../Titular.hpp"
-
 #include <string>
 #include <utility>
 #include <iostream>
 #include <variant>
 
-template<int taxaSacar>
-
-class Conta 
+class Conta
 {
-private:
-	int numeroAgencia;
-	std::string numeroConta;
-protected:
-	float saldo;
-	Titular titular;
-
 public:
 
-	int getNumeroAgencia() { return numeroAgencia; }
-	std::string GetNumeroConta() { return numeroConta; }
-
-	Conta(int numeroAgencia, std::string numeroConta, Titular titular) : numeroAgencia(numeroAgencia), numeroConta(numeroConta), titular(titular)
-	{
-		float saldo = 0;
-	}
-
+	Conta(int numeroAgencia, std::string numeroConta, Titular titular);
+	virtual float taxaDeSaque() const = 0;
+	int getNumeroAgencia();
+	std::string GetNumeroConta();
+	float GetSaldo();
 	enum validaSaque
 	{
 		sucesso, valorNegativo, saldoInsuficiente
 	};
+	std::variant<validaSaque, float> sacar(float valorASacar);
+	void depositar(float valorADepositar);
+	void mostraDadosConta();
+private:
 
-	std::variant<validaSaque, float> sacar(float valorASacar)
-	{
+	static int numeroDeContas;
+	int numeroAgencia;
+	std::string numeroConta;
+protected:
 
-		if (valorASacar < 0) {
-			std::cout << "Valor de saque, inválido." << std::endl;
-			return valorNegativo;
-		}
-
-		float taxa = valorASacar * (taxaSacar / 100);
-		float valorDoSaque = valorASacar + (valorASacar * taxa);
-
-		if (valorDoSaque > saldo) {
-			std::cout << "Saldo insuficiente" << std::endl;
-			return saldoInsuficiente;
-		}
-
-		saldo -= valorDoSaque;
-		return saldo;
-	};
-
-
+	float saldo;
+	Titular titular;
 };
 
 
